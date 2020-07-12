@@ -1,0 +1,82 @@
+.wrapper { 
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+background: linear-gradient(124deg, #ffb2a6, #ff8a8a, #ffce5c, #f2f576, #bbedc4, #77f0f7, #948cff, #dd00f3, #ffbdfd);
+background-size: 1800% 1800%;
+
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+.button {
+font-family: Courier New;
+text-transform: uppercase;
+box-shadow: 5px 5px #66f7ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 7px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.button2 {
+  background-color: lightyellow; 
+  color: gray; 
+  border: 0px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #345eeb;
+  color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1vh;
+}
+.center {
+  text-align: center;
+  width: 100%;
+}
